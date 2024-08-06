@@ -1,0 +1,143 @@
+/* header{
+    margin: 0px;
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    color: #ffffff;
+    background-color: #2f333d;
+
+} */
+
+.hamburger-menu {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin-left: 5px;
+  background-color: #51535a;
+
+  border-radius: 10px;
+}
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+.input-box {
+  margin-left: 100px;
+  display: flex;
+  width: 300px;
+  height: 33px;
+  background-color: #51535a;
+  /* border: 1px solid red; */
+}
+
+.search-box {
+  height: 33px;
+  width: 225px;
+  background-color: #51535a;
+}
+.input-box [type="text"] {
+  background-color: #51535a;
+  height: 32px;
+  width: 100%;
+  margin-left: 3px;
+  border: none;
+  border-radius: 5px;
+  /* border: 2px solid green; */
+}
+.input-box [type="text"]::placeholder {
+  font-size: 13.7px;
+  color: white;
+}
+.input-box [type="text"]:focus {
+  outline: none;
+  color: white;
+}
+.seacrch-icon:hover {
+  cursor: pointer;
+}
+
+.icon-avatar {
+  display: flex;
+  margin-left: auto;
+  margin-right: 25px;
+  justify-content: space-between;
+  /* border: 1px solid ghostwhite; */
+}
+
+[class^="icon-box"] {
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #51535a;
+}
+[class^="icon-box"]:hover {
+  background-color: hsla(215, 20%, 75%, 0.53);
+  cursor: pointer;
+}
+
+.icons-size {
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+}
+
+.icon-box2 img,
+.icon-box3 img {
+  width: 43px;
+  height: 43px;
+  padding: 10px;
+}
+
+.icon-box3 img {
+  margin-right: 7px;
+}
+
+.bell-notification-badge {
+  padding: 4px;
+  position: relative;
+  border-radius: 60%;
+  background-color: hsl(220, 80%, 58%);
+  left: 31px;
+  top: -8px;
+}
+
+@media screen and (max-width: 600px) {
+  .input-box {
+    margin-left: 40px;
+    width: 200px;
+    height: 33px;
+  }
+  .icon-avatar {
+    margin-right: 8px;
+  }
+
+  [class^="icon-box"] {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #51535a;
+  }
+  .icons-size {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+  }
+  .bell-notification-badge {
+    top: -7px;
+    left: 28px;
+  }
+  .icon-box3 img,
+  .icon-box2 img,
+  .icon-box3 img {
+    width: 40px;
+    height: 43px;
+    padding: 10px;
+  }
+}

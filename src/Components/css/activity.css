@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.activity-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.activity-chart,
+.activity-tracker {
+  width: 100%;
+  background-color: #2f333d;
+  height: auto;
+  margin-top: 20px;
+}
+.barChart {
+  margin-top: auto;
+  min-width: auto;
+  height: 200px;
+}
+
+.activity-tracker {
+  display: flex;
+  flex-direction: column;
+}
+
+.goal-icons {
+  margin-top: -10px;
+}
+.activity-tracker img {
+  width: 45px;
+  height: 45px;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.goal-icons img {
+  background-color: hsla(349, 74%, 56%, 0.33);
+}
+.dishes-icons img {
+  background-color: hsla(239, 87%, 70%, 0.33);
+}
+.menus-icons img {
+  background-color: hsla(220, 21%, 44%, 0334);
+  /* background-color: hsla(209, 83%, 70%, 0.906); */
+}
+[class^="act-sec"] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 86.66px;
+  /* background-color: hsla(hue, saturation, lightness, alpha); */
+  color: ghostwhite;
+}
+.icons2 {
+  background-color: hsla(210, 3%, 57%, 0.33);
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.icons-layout {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.dishes-icons {
+  margin-top: 0px;
+}
+[class^="act-sec"]:hover {
+  cursor: pointer;
+  background-color: hsla(216, 12%, 47%, 0.33);
+}
+
+@media screen and (min-width: 800px) {
+  .activity-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .activity-chart {
+    width: 68%;
+    height: 200px;
+    border: 1px solid green;
+    margin-top: 25px;
+  }
+  .activity-tracker {
+    width: 32%;
+    margin-left: 20px;
+    height: 250px;
+  }
+
+  .barChart {
+    margin-top: 20px;
+    min-width: 100%;
+    border: 1px solid salmon;
+    height: 200px;
+  }
+}

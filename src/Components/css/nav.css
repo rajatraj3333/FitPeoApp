@@ -1,0 +1,65 @@
+.nav-menus {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-menus img {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.home {
+  border-radius: 5px;
+  border-left: 4px solid hsla(220, 98%, 63%, 0.823);
+  margin-top: 15px;
+}
+
+.nav-icons {
+  width: 30px;
+  height: 30px;
+}
+
+.wallets svg {
+  fill: white;
+}
+
+.wallets {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wallets svg:hover {
+  cursor: pointer;
+  fill: hsla(220, 98%, 63%, 0.823);
+  stroke: hsla(220, 98%, 63%, 0.823);
+}
+
+.task {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.task svg:hover {
+  cursor: pointer;
+  fill: hsla(220, 98%, 63%, 0.823);
+  stroke: hsla(220, 98%, 63%, 0.823);
+}
+
+.reports {
+  fill: white;
+  margin-top: 15px;
+}
+
+[class^="reports"]:hover {
+  cursor: pointer;
+  fill: hsla(220, 98%, 63%, 0.823);
+}
+
+@media screen and (min-width: 800px) {
+  .nav-icons {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+  }
+}

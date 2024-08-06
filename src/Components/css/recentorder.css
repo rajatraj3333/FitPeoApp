@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.recent-order-wrapper {
+  /* display: flex;
+    flex-direction: column; */
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.recent-order,
+.feedback {
+  width: 100%;
+  background-color: #2f333d;
+  height: auto;
+  margin-top: 20px;
+  overflow-x: scroll;
+}
+
+.feedback {
+  height: auto;
+  /* margin-top: 100px; */
+  overflow: scroll;
+}
+
+table {
+  width: 100%;
+  /* margin: 2% 5%; */
+  margin: 2%;
+  border-collapse: collapse;
+  overflow-x: scroll;
+}
+table td {
+  /* margin: 20px; */
+  /* background-color: aqua; */
+  padding: 8px;
+  border-bottom: 1px solid hsla(252, 2%, 40%, 0.725);
+  text-align: start;
+  font-size: 12.7px;
+}
+
+table th {
+  padding: 15px;
+  text-align: start;
+}
+
+.td-space {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.td-space p {
+  margin-left: 5px;
+}
+
+.Cimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+}
+
+.avatar-name {
+  display: flex;
+  /* align-items: center; */
+}
+.avatar-name span {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.feedback {
+  overflow-y: scroll;
+}
+
+.feedback-text {
+  font-size: 13.7px;
+  color: hsla(210, 15%, 92%, 0.714);
+}
+
+.feed-back-container {
+  margin: 12px;
+  margin-top: 0px;
+  height: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .recent-order-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .recent-order {
+    width: 68%;
+    height: 600px;
+    border: 1px solid green;
+  }
+  .feedback {
+    width: 32%;
+    margin-left: 20px;
+    height: 600px;
+  }
+
+  table tr:nth-child(1):hover {
+    cursor: pointer;
+    background-color: rgba(40, 38, 38, 0.557);
+  }
+  table tr:nth-child(1n + 2):hover {
+    background-color: red;
+    cursor: pointer;
+    background-color: hsla(216, 12%, 47%, 0.33);
+  }
+
+  table td {
+    font-size: 15.7px;
+  }
+}
