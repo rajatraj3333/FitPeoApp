@@ -6,7 +6,7 @@
   height: auto;
   width: 100%;
   align-items: center;
-  /* border: 1px solid salmon; */
+
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -21,7 +21,6 @@
 
 [class^="sec"] {
   margin-left: 20px;
-  /* border: 1px solid red; */
   width: 25%;
   background-color: #2f333d;
 }
@@ -186,7 +185,6 @@
   [class^="sec"] {
     min-width: 17%;
     min-height: 150px;
-    /* border-right: 1px solid slateblue; */
     background-color: #2f333d;
     margin-left: 10px;
     font-size: 16px;
@@ -196,7 +194,6 @@
 
     align-items: center;
     width: 68%;
-    /* border: 1px solid green; */
   }
   .sec4 {
     margin-right: 10px;
@@ -249,8 +246,6 @@
 
   [class^="sec"] .desc {
     margin-top: 25px;
-
-    /* border: 1px solid red; */
   }
   [class^="numbers"] {
     margin-top: 10px;

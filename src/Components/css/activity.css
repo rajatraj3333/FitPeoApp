@@ -89,7 +89,6 @@
   .activity-chart {
     width: 68%;
     height: 200px;
-    border: 1px solid green;
     margin-top: 25px;
   }
   .activity-tracker {
@@ -101,7 +100,6 @@
   .barChart {
     margin-top: 20px;
     min-width: 100%;
-    border: 1px solid salmon;
     height: 200px;
   }
 }

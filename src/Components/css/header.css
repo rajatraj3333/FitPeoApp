@@ -26,7 +26,6 @@
   width: 300px;
   height: 33px;
   background-color: #51535a;
-  /* border: 1px solid red; */
 }
 
 .search-box {
@@ -41,7 +40,7 @@
   margin-left: 3px;
   border: none;
   border-radius: 5px;
-  /* border: 2px solid green; */
+
 }
 .input-box [type="text"]::placeholder {
   font-size: 13.7px;
@@ -60,7 +59,7 @@
   margin-left: auto;
   margin-right: 25px;
   justify-content: space-between;
-  /* border: 1px solid ghostwhite; */
+
 }
 
 [class^="icon-box"] {
