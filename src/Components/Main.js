@@ -4,7 +4,7 @@ import Nav from "./Nav";
 import Maincontent from "./Maincontent";
 import { useState } from "react";
 const Main = () => {
-  const [open, setopen] = useState(true);
+  const [open, setopen] = useState(false);
   const openMenu = () => {
     setopen(!open);
   };
