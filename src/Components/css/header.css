@@ -61,7 +61,12 @@
   justify-content: space-between;
 
 }
-
+.avatar-icons{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+ 
+}
 [class^="icon-box"] {
   width: 45px;
   height: 45px;
@@ -102,6 +107,10 @@
   left: 31px;
   top: -8px;
 }
+.icon-box4{
+  border: 1.7px solid rgb(15, 194, 15);
+
+  }
 
 @media screen and (max-width: 600px) {
   .input-box {
@@ -112,6 +121,14 @@
   .icon-avatar {
     margin-right: 8px;
   }
+  .avatar-icons{
+    width: 30px;
+    height: 30px;
+  border: 1.7px solid rgb(15, 194, 15);
+
+
+  }
+
 
   [class^="icon-box"] {
     width: 30px;
@@ -139,4 +156,18 @@
     height: 43px;
     padding: 10px;
   }
+  }
+
+@media screen and (min-width:800px) {
+  .avatar-icons{
+  width: 40px;
+  height: 40px;
+
+  }
+  .avatar-icons{
+  border: 1.7px solid rgb(15, 194, 15);
+
+
+  }
+ 
 }

@@ -16,7 +16,6 @@
   margin-top: 20px;
 }
 .barChart {
-  margin-top: auto;
   min-width: auto;
   height: 200px;
 }
@@ -81,6 +80,10 @@
   background-color: hsla(216, 12%, 47%, 0.33);
 }
 
+.barChart{
+  margin-top: 10px;
+}
+
 @media screen and (min-width: 800px) {
   .activity-wrapper {
     display: flex;
@@ -88,7 +91,7 @@
   }
   .activity-chart {
     width: 68%;
-    height: 200px;
+    height: 250px;
     margin-top: 25px;
   }
   .activity-tracker {
@@ -98,8 +101,10 @@
   }
 
   .barChart {
-    margin-top: 20px;
     min-width: 100%;
+    margin-top: 10px;
+    height: 180px;
+    width: 700px;
     height: 200px;
   }
 }

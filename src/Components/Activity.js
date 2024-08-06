@@ -33,9 +33,8 @@ const Activity = () => {
     ];
     const data = {
       labels: labels,
-      weight: 15,
+      weight: 18,
       min: 10,
-
       datasets: [
         {
           backgroundColor: "hsla(220, 98%, 63%, 0.823)",
@@ -52,10 +51,9 @@ const Activity = () => {
     return (
       <Bar
         data={data}
-        className="barChartWidth"
-        width={"700px"}
-        height={"180px"}
-        style={{ display: "flex", justifyContent: "flex-end" }}
+        className="barChart"
+        
+
       />
     );
   };
@@ -63,9 +61,9 @@ const Activity = () => {
     <>
       <div className="activity-wrapper">
         <div className="activity-chart">
-          <div className="barChart">
+         
             <BarChart />
-          </div>
+        
         </div>
         <div className="activity-tracker">
           <section className="act-sec-1">

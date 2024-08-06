@@ -21,7 +21,10 @@ const Header = ({ openMenu }) => {
             <span className="bell-notification-badge"></span>
             <img src="./bell-svgrepo-com.svg" className="icons-size" />
           </div>
-          <div className="icon-box4">4</div>
+          <div className="icon-box4">
+          <img src="./pexels-hasibullah-zhowandai.jpg" className="avatar-icons" />
+
+          </div>
         </div>
       </header>
     </>

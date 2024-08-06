@@ -17,7 +17,9 @@ const Recentorder = () => {
           </td>
           <td>15478256</td>
           <td>$124.00</td>
-          <td>Delivered</td>
+          <td >
+            <span className="delivered">Delivered</span>
+            </td>
         </tr>
         <tr>
           <td className="td-space">
@@ -30,7 +32,9 @@ const Recentorder = () => {
           </td>
           <td>48965786</td>
           <td>$365.02</td>
-          <td>Delivered</td>
+          <td>
+          <span className="delivered">Delivered</span>
+          </td>
         </tr>
         <tr>
           <td className="td-space">
@@ -43,7 +47,9 @@ const Recentorder = () => {
           </td>
           <td>78958215</td>
           <td>$45.88</td>
-          <td>Cancelled</td>
+          <td>
+          <span className="cancelled">Cancelled</span>
+ </td>
         </tr>
         <tr>
           <td className="td-space">
@@ -56,7 +62,9 @@ const Recentorder = () => {
           </td>
           <td>20965732</td>
           <td>$65.00</td>
-          <td>Pending</td>
+          <td>
+          <span className="cancelled" style={{padding:"5px 8px"}}>Pending</span>
+ </td>
         </tr>
         <tr>
           <td className="td-space">
@@ -69,7 +77,9 @@ const Recentorder = () => {
           </td>
           <td>95715620</td>
           <td>$545.00</td>
-          <td>Delivered</td>
+          <td>
+          <span className="delivered">Delivered</span>
+          </td>
         </tr>
         <tr>
           <td className="td-space">
@@ -82,7 +92,9 @@ const Recentorder = () => {
           </td>
           <td>78514568</td>
           <td>$128.20</td>
-          <td>Delivered</td>
+          <td>
+          <span className="delivered">Delivered</span>
+          </td>
         </tr>
       </table>
     );

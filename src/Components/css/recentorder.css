@@ -22,6 +22,19 @@
   overflow: scroll;
 }
 
+.delivered{
+color: hsla(121, 88%, 67%, 0.62);
+background-color: hsla(120, 24%, 66%, 0.62);
+padding: 5px;
+border-radius: 10px;
+}
+.cancelled{
+color: hsla(354, 94%, 50%, 0.556);
+padding: 4px;
+border-radius: 10px;
+background-color: hsla(347, 80%, 62%, 0.33);
+}
+
 table {
   width: 100%;
   /* margin: 2% 5%; */
